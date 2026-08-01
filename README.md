@@ -7,7 +7,7 @@
 <img src="https://img.shields.io/badge/MERN%20Stack-06B6D4?style=for-the-badge" />
 </p>
 
-I build scalable, production-ready web applications with clean architecture, strong performance, and user-centric design.
+I build scalable, production-ready applications with clean architecture, strong performance, and user-centric design.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-000?style=for-the-badge&logo=googlechrome&logoColor=white)](https://suniln.com.np)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sunil472/)
