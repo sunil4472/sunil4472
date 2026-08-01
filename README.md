@@ -41,7 +41,7 @@ Complete MERN eCommerce platform with authentication, cart, secure checkout, and
 
 ## Education
 
-**BSc. CSIT** — Bhairahawa Multiple Campus, Tribhuvan University — 2022 – 2026
+**BSc. CSIT** : Bhairahawa Multiple Campus, Tribhuvan University   2022 – 2026
 
 <br/>
 
