@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="340" viewBox="0 0 1000 340">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#050813"/><stop offset="1" stop-color="#0D1535"/></linearGradient>
+<linearGradient id="txt" x1="0" y1="0" x2="1" y2="0" spreadMethod="reflect"><stop offset="0" stop-color="#38BDF8"/><stop offset=".5" stop-color="#818CF8"/><stop offset="1" stop-color="#F0ABFC"/><animateTransform attributeName="gradientTransform" type="translate" values="-0.6 0;0.6 0;-0.6 0" dur="7s" repeatCount="indefinite"/></linearGradient>
+<linearGradient id="bd" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#38BDF8"/><stop offset=".5" stop-color="#818CF8"/><stop offset="1" stop-color="#E879F9"/></linearGradient>
+<filter id="bl" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="50"/></filter>
+<filter id="gl" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="8"/></filter>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#fff" stroke-opacity=".045"/></pattern>
+<clipPath id="cl"><rect width="1000" height="340" rx="28"/></clipPath>
+</defs>
+<style>
+.p{animation:fl ease-in-out infinite;opacity:.7}
+@keyframes fl{0%,100%{transform:translateY(0);opacity:.2}50%{transform:translateY(-26px);opacity:.95}}
+.b1{animation:m1 14s ease-in-out infinite}.b2{animation:m2 17s ease-in-out infinite}.b3{animation:m3 20s ease-in-out infinite}
+@keyframes m1{0%,100%{transform:translate(0,0)}50%{transform:translate(220px,50px)}}
+@keyframes m2{0%,100%{transform:translate(0,0)}50%{transform:translate(-200px,-30px)}}
+@keyframes m3{0%,100%{transform:translate(0,0)}50%{transform:translate(120px,-60px)}}
+.r{opacity:0;animation:cy 9s infinite}.r2{animation-delay:3s}.r3{animation-delay:6s}
+@keyframes cy{0%{opacity:0;transform:translateY(10px)}5%,28%{opacity:1;transform:translateY(0)}33%,100%{opacity:0;transform:translateY(-10px)}}
+.dot{animation:pl 1.6s ease-out infinite;transform-origin:center;transform-box:fill-box}
+@keyframes pl{0%{transform:scale(1);opacity:.8}100%{transform:scale(3.2);opacity:0}}
+.hi{animation:fi 1.2s ease-out both}
+@keyframes fi{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+.sc{animation:sc 5s linear infinite}
+@keyframes sc{0%{transform:translateX(-300px)}100%{transform:translateX(1300px)}}
+</style>
+<g clip-path="url(#cl)">
+<rect width="1000" height="340" fill="url(#bg)"/>
+<g filter="url(#bl)" opacity=".85">
+<circle class="b1" cx="180" cy="90" r="120" fill="#2563EB"/>
+<circle class="b2" cx="800" cy="260" r="130" fill="#7C3AED"/>
+<circle class="b3" cx="520" cy="300" r="100" fill="#06B6D4"/>
+</g>
+<rect width="1000" height="340" fill="url(#grid)"/>
+<circle cx="351" cy="97" r="3" fill="#38BDF8" class="p" style="animation-duration:8.9s;animation-delay:-0.4s"/>
+<circle cx="394" cy="318" r="1.2" fill="#38BDF8" class="p" style="animation-duration:10.5s;animation-delay:-1.3s"/>
+<circle cx="464" cy="234" r="1.2" fill="#38BDF8" class="p" style="animation-duration:6.4s;animation-delay:-3.3s"/>
+<circle cx="866" cy="309" r="1.2" fill="#38BDF8" class="p" style="animation-duration:10.7s;animation-delay:-3.8s"/>
+<circle cx="610" cy="319" r="3" fill="#818CF8" class="p" style="animation-duration:5.3s;animation-delay:-1.3s"/>
+<circle cx="316" cy="234" r="1.8" fill="#818CF8" class="p" style="animation-duration:8.2s;animation-delay:-3.4s"/>
+<circle cx="125" cy="317" r="1.8" fill="#38BDF8" class="p" style="animation-duration:7.2s;animation-delay:-3.3s"/>
+<circle cx="597" cy="50" r="1.8" fill="#E879F9" class="p" style="animation-duration:8.0s;animation-delay:-3.2s"/>
+<circle cx="496" cy="319" r="3" fill="#818CF8" class="p" style="animation-duration:7.2s;animation-delay:-1.5s"/>
+<circle cx="735" cy="144" r="1.2" fill="#E879F9" class="p" style="animation-duration:8.4s;animation-delay:-3.2s"/>
+<circle cx="766" cy="249" r="2.4" fill="#FFFFFF" class="p" style="animation-duration:8.7s;animation-delay:-0.4s"/>
+<circle cx="188" cy="195" r="1.8" fill="#38BDF8" class="p" style="animation-duration:10.6s;animation-delay:-2.5s"/>
+<circle cx="802" cy="305" r="2.4" fill="#FFFFFF" class="p" style="animation-duration:7.0s;animation-delay:-2.1s"/>
+<circle cx="613" cy="253" r="1.2" fill="#FFFFFF" class="p" style="animation-duration:10.0s;animation-delay:-5.7s"/>
+<circle cx="733" cy="53" r="1.2" fill="#FFFFFF" class="p" style="animation-duration:9.4s;animation-delay:-1.9s"/>
+<circle cx="311" cy="217" r="2.4" fill="#818CF8" class="p" style="animation-duration:5.1s;animation-delay:-2.8s"/>
+<circle cx="645" cy="79" r="3" fill="#818CF8" class="p" style="animation-duration:5.4s;animation-delay:-4.6s"/>
+<circle cx="776" cy="146" r="3" fill="#38BDF8" class="p" style="animation-duration:7.3s;animation-delay:-5.2s"/>
+<circle cx="190" cy="249" r="3" fill="#FFFFFF" class="p" style="animation-duration:8.3s;animation-delay:-5.3s"/>
+<circle cx="904" cy="301" r="2.4" fill="#FFFFFF" class="p" style="animation-duration:9.2s;animation-delay:-5.9s"/>
+<circle cx="256" cy="97" r="1.2" fill="#818CF8" class="p" style="animation-duration:6.1s;animation-delay:-1.4s"/>
+<circle cx="32" cy="268" r="1.8" fill="#FFFFFF" class="p" style="animation-duration:6.6s;animation-delay:-0.0s"/>
+<circle cx="567" cy="209" r="2.4" fill="#38BDF8" class="p" style="animation-duration:10.7s;animation-delay:-4.1s"/>
+<circle cx="487" cy="306" r="3" fill="#FFFFFF" class="p" style="animation-duration:7.4s;animation-delay:-2.4s"/>
+<circle cx="669" cy="225" r="1.2" fill="#FFFFFF" class="p" style="animation-duration:6.1s;animation-delay:-5.9s"/>
+<circle cx="186" cy="76" r="2.4" fill="#818CF8" class="p" style="animation-duration:8.6s;animation-delay:-0.6s"/>
+<rect class="sc" x="0" y="0" width="140" height="340" fill="#fff" opacity=".035" transform="skewX(-20)"/>
+<text x="500" y="92" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono','Courier New',monospace" font-size="16" letter-spacing="6" fill="#38BDF8" class="hi">&lt; HELLO, WORLD /&gt;</text>
+<text x="500" y="172" text-anchor="middle" font-family="'Segoe UI','Inter',system-ui,-apple-system,Arial,sans-serif" font-size="78" font-weight="800" letter-spacing="2" fill="url(#txt)" class="hi" style="animation-delay:.2s">SUNIL NEUPANE</text>
+<g font-family="'Segoe UI','Inter',system-ui,-apple-system,Arial,sans-serif" font-size="28" font-weight="600" fill="#E2E8F0" text-anchor="middle">
+<text x="500" y="228" class="r">Full Stack Developer · MERN</text>
+<text x="500" y="228" class="r r2">Mobile App Developer · Flutter</text>
+<text x="500" y="228" class="r r3">Building scalable, production-ready apps</text>
+</g>
+<g transform="translate(500,282)"><g class="hi" style="animation-delay:.6s">
+<rect x="-110" y="-18" width="220" height="36" rx="18" fill="#0B1226" stroke="#22C55E" stroke-opacity=".5"/>
+<circle class="dot" cx="-82" cy="0" r="5" fill="#22C55E"/><circle cx="-82" cy="0" r="5" fill="#22C55E"/>
+<text x="-62" y="5" font-family="'Segoe UI','Inter',system-ui,-apple-system,Arial,sans-serif" font-size="14" font-weight="600" fill="#86EFAC">Open to work &amp; collabs</text>
+</g></g>
+<rect x="1.5" y="1.5" width="997" height="337" rx="27" fill="none" stroke="url(#bd)" stroke-opacity=".55" stroke-width="2"/>
+</g></svg>
