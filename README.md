@@ -5,9 +5,7 @@
 <br/>
 
 <a href="https://suniln.com.np"><img src="https://img.shields.io/badge/Portfolio-0B1226?style=for-the-badge&logo=googlechrome&logoColor=38BDF8&labelColor=0B1226&color=1E2A4A" /></a>
-<a href="https://www.linkedin.com/in/sunil472/"><img src="https://img.shields.io/badge/LinkedIn-0B1226?style=for-the-badge&logo=linkedin&logoColor=0A9DFF&labelColor=0B1226&color=1E2A4A" /></a>
 <a href="https://github.com/sunil4472"><img src="https://img.shields.io/badge/GitHub-0B1226?style=for-the-badge&logo=github&logoColor=white&labelColor=0B1226&color=1E2A4A" /></a>
-<a href="https://1xcode.io"><img src="https://img.shields.io/badge/1xCode.io-0B1226?style=for-the-badge&logo=codepen&logoColor=E879F9&labelColor=0B1226&color=1E2A4A" /></a>
 <a href="mailto:neupanesunil472@gmail.com"><img src="https://img.shields.io/badge/Email-0B1226?style=for-the-badge&logo=gmail&logoColor=F87171&labelColor=0B1226&color=1E2A4A" /></a>
 
 <br/><br/>
@@ -46,11 +44,7 @@
 
 <br/>
 
-<img src="assets/t-exp.svg" width="100%" alt="Experience"/>
 
-<div align="center">
-<img src="assets/experience.svg" width="100%" alt="Experience timeline"/>
-</div>
 
 <br/>
 
