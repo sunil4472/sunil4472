@@ -77,7 +77,7 @@
 <img src="assets/t-contact.svg" width="100%" alt="Let's connect"/>
 
 <div align="center">
-<a href="mailto:neupanesunil472@gmail.com"><img src="assets/contact.svg" width="100%" alt="Contact me"/></a>
+<a href="mailto:hi@suniln.com.np"><img src="assets/contact.svg" width="100%" alt="Contact me"/></a>
 </div>
 
 <img src="assets/footer.svg" width="100%" alt="footer"/> 
